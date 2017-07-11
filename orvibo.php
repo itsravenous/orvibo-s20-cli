@@ -1,7 +1,7 @@
 <?php
 	define('SWITCH_CACHE', __DIR__.'/switches.json');
 
-	require('./orvfms/orvfms.php');
+	require(__DIR__.'/orvfms/orvfms.php');
 
 	$cmd = $argv[1];
 
